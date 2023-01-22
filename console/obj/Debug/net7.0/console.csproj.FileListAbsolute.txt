@@ -32,3 +32,5 @@ C:\Users\david\Documents\Estudos\dotnet\Persistencia\console\obj\Debug\net7.0\re
 C:\Users\david\Documents\Estudos\dotnet\Persistencia\console\obj\Debug\net7.0\console.pdb
 C:\Users\david\Documents\Estudos\dotnet\Persistencia\console\obj\Debug\net7.0\console.genruntimeconfig.cache
 C:\Users\david\Documents\Estudos\dotnet\Persistencia\console\obj\Debug\net7.0\ref\console.dll
+C:\Users\david\Documents\Estudos\dotnet\Persistencia\console\bin\Debug\net7.0\negocio.dll
+C:\Users\david\Documents\Estudos\dotnet\Persistencia\console\bin\Debug\net7.0\negocio.pdb

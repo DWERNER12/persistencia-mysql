@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Clientas";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Lista de Clientes</h1>    
+</div>
+
+<hr>
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Email</th>      
+      <th style="width: 20px;" scope="col"></th>      
+      <th style="width: 20px;" scope="col"></th>      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>
+        <a href="/clientes/1/editar" class="btn btn-warning">Editar</a>
+      </td>
+      <td>
+        <a href="/clientes/1/deletar" class="btn btn-danger">Deletar</a>
+      </td>
+    </tr>
+   </tbody>
+</table>
+

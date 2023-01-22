@@ -324,6 +324,19 @@
             "rid": "win"
           }
         }
+      },
+      "negocio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MySql.Data": "8.0.31"
+        },
+        "compile": {
+          "bin/placeholder/negocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/negocio.dll": {}
+        }
       }
     }
   },
@@ -885,11 +898,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "negocio/1.0.0": {
+      "type": "project",
+      "path": "../negocio/negocio.csproj",
+      "msbuildProject": "../negocio/negocio.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "MySql.Data >= 8.0.31"
+      "negocio >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -924,7 +942,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\david\\Documents\\Estudos\\dotnet\\Persistencia\\negocio\\negocio.csproj": {
+              "projectPath": "C:\\Users\\david\\Documents\\Estudos\\dotnet\\Persistencia\\negocio\\negocio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -936,12 +958,6 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
-        "dependencies": {
-          "MySql.Data": {
-            "target": "Package",
-            "version": "[8.0.31, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",

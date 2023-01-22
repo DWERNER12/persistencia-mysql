@@ -1,4 +1,4 @@
-﻿using console.Models;
+﻿using Negocio.Models;
 using console.UI;
 
 while (true)

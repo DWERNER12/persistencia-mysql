@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 
-namespace console.Models
+namespace Negocio.Models
 {
     public class Cliente
     {
@@ -57,7 +57,7 @@ namespace console.Models
             return clientes;
         }
 
-        internal static List<Cliente> Todos()
+        public static List<Cliente> Todos()
         {
             var clientes = new List<Cliente>();
             using (var conn = new MySqlConnection(conexao))

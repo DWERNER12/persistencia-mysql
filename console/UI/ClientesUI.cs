@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using console.Models;
+using Negocio.Models;
 
 namespace console.UI
 {
