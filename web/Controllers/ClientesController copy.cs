@@ -29,6 +29,20 @@ public class ClientesController : Controller
         cliente.Salvar();
         return Redirect("/clientes");
     }
+    [Route("/clientes/{id}/editar")]
+    public IActionResult Editar([FromRoute] int id)
+    {
+        ViewBag.cliente = Cliente.BuscaPorId(id);
+        return View();
+    }
+
+    [Route("/clientes/{id}/atualizar")]
+    public IActionResult Atualizar([FromRoute] int id, [FromForm] Cliente cliente)
+    {
+        cliente.Id = id;
+        cliente.Salvar();
+        return Redirect("/clientes");
+    }
 
     [Route("/clientes/{id}/deletar")]
     public IActionResult Apágar([FromRoute] int id)
